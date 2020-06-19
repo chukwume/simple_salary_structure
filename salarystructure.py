@@ -3,7 +3,7 @@ last_name = input('Enter last name: ').title()
 
 while True:
     try:
-        gross_annual = int(input("What is the Gross Annual Salary of employee? \nDo not include any symbols. Eg. 'NGN2,500,500' should be written as '2500000'"))
+        gross_annual = int(input("What is the Gross Annual Salary of employee? \nDo not include any symbols. Eg. 'NGN2,500,500' should be written as '2500000'\n"))
         break
     except:
         print ('Enter a valid Gross Annual Salary.')
